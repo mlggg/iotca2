@@ -1,1 +1,1 @@
-# iotca2
+# This is our iotca2 Smart Home
