@@ -1,4 +1,4 @@
-# This is our iotca2 Smart Home
+# This is our Iot CA2 Smart Home
 
 Please download the php SDK aws.zip from http://docs.aws.amazon.com/aws-sdk-php/v2/guide/installation.html
 
