@@ -5,3 +5,5 @@ Please download the php SDK aws.zip from http://docs.aws.amazon.com/aws-sdk-php/
 Please create 2 empty folder name as 'images' in living room and baby room to store your iamges
 
 The dash board used is an edited version of Pixel Admin Lite, library files can be found @https://wrappixel.com/templates/pixel-admin-lite/
+
+Please check out the documentation saved in MicroSoft Word in order to create your own Smart Home.
