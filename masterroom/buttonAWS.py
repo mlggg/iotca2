@@ -22,7 +22,7 @@ def customCallback(client, userdata, message):
   print("--------------\n\n")
 
 
-host = "a229305f378i8s.iot.us-east-2.amazonaws.com"
+host = ""
 rootCAPath = "rootca.pem"
 certificatePath = "certificate.pem.crt"
 privateKeyPath = "private.pem.key"
@@ -73,8 +73,8 @@ def detectON():
  led.on()
 
 
-dynamodb = boto3.resource("dynamodb",aws_access_key_id='AKIAJ54LBWTUCE5PH4HQ',
-         aws_secret_access_key='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', region_name='us-east-2')
+dynamodb = boto3.resource("dynamodb",aws_access_key_id='',
+         aws_secret_access_key='', region_name='us-east-2')
 
 table = dynamodb.Table('LED')
 
