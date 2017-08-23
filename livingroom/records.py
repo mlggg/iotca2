@@ -25,7 +25,7 @@ def customCallback(client, userdata, message):
   print(message.topic)
   print("--------------\n\n")
 
-host = "a229305f378i8s.iot.us-east-2.amazonaws.com"
+host = ""
 rootCAPath = "rootca.pem"
 certificatePath = "certificate.pem.crt"
 privateKeyPath = "private.pem.key"
@@ -48,7 +48,7 @@ sleep(2)
 
 pin = 4
 
-bucket_name = 'iotlivingroom' # replace  with your own unique bucket name
+bucket_name = '' # replace  with your own unique bucket name
 location={'LocationConstraint':'us-east-2'}
 pir = MotionSensor(26, sample_rate=5,queue_len=1)
 
@@ -61,8 +61,8 @@ def takePhoto(file_path,file_name):
 def uploadToS3(file_path,file_name,bucket_name,location):
   # Create an S3 resource manually
   s3 = boto3.resource('s3',
-     aws_access_key_id='AKIAIHEUFULUVB4S7HTQ',
-     aws_secret_access_key='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')
+     aws_access_key_id='',
+     aws_secret_access_key='')
   exists=True
 
   try: 
